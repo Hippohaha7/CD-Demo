@@ -1,5 +1,8 @@
 name: AWS Amazon Linux 2 3.7.9
-on: [push]
+on:
+  push:
+    branches:
+     - master
 jobs:
   build:
     runs-on: amazonlinux
